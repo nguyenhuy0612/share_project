@@ -2,6 +2,10 @@
 province = ['dn','cx','st','sx'] # tổng hợp tất cả item
 pro_today = ['dn', 'cx'] # item xuất hiện mỗi ngày
 cp = ['vt','dd', 'bl','tth'] # cú pháp
+
+cấu trúc nhập:
+<province><số cụm 1> <số 1 đến n> <cp><số tùy ý><province><số> <số 1 đến n> <cp><số tùy ý>(hoặc n lần)
+"<số cụm 1> <số 1 đến n>" ==> max(len=2 or len=3)
 vd 1:
 string = "dn90!# 221 bl200dn30bl100dn40dd100"
 
